@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+nav{
+    background-color: #DEECEC;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .menu{
+            display: none;
+        }
+    }
+}
+
+header{
+    background-color: #DEECEC;
+}
+
+main{
+    #second_section{
+        .col-lg-3{
+            .t-shirt{
+                background-color: #F7F8FC;
+            }
+            .icons{
+                i{
+                    color: #FFB400;
+                }
+            }
+            .name_price{
+                .price{
+                    color: #297176;
+                    font-weight: 700;
+                    font-size: 22px;
+                }
+            }
+        }   
+    }
+
+    #third_section{
+        background-color: #F6F8FA;
+        .container{
+            .row{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .col-lg-6{
+                    .buy{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        p{
+                            display: flex;
+                            align-items: center;
+                            gap: 20px;
+                            b{
+                                color: #297176;
+                                font-weight: 700;
+                                font-size: 30px;
+                            }
+                            s{
+                                font-size: 20px;
+                            }
+                        }
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            background-color: #297176;
+                            padding: 10px 30px;
+                            border-radius: 30px;
+                            &:hover{
+                                background-color: #ffffff;
+                                color: #297176;
+                                transition: 0.7s;
+                                border: 1px  solid #297176;
+                            }
+                        }
+                    }
+                    .dates{
+                        display: flex;
+                        align-items: center;
+                        gap: 30px;
+                        .date{
+                            h2{
+                                background-color: #ffffff;
+                                text-align: center;
+                                padding: 10px;
+                                border-radius: 50%;   
+                            }                        
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #fourth_section{
+        .container{
+            .row{
+                .col-lg-3{
+                    .t-shirt{
+                        background-color: #F7F8FC;
+                    }
+                    .icons{
+                        i{
+                            color: #FFB400;
+                        }
+                    }
+                    .name_price{
+                        .price{
+                            color: #297176;
+                            font-weight: 700;
+                            font-size: 22px;
+                        }
+                        .circles{
+                            display: flex;
+                            gap: 5px;
+                            i:nth-child(1){
+                                color: aqua;
+                            }
+                            i:nth-child(2){
+                                color: #c399ad;
+                            }
+                            i:nth-child(3){
+                                color: #040404;
+                            }
+                        }
+                    }
+                }  
+            }
+        }
+    }
+
+    #fifth_section{
+        .container{
+            .row{   
+                .col-lg-6{
+                    .man1{
+                        background-color: #f6ebd9;
+                        .stay{
+                            color: #589195;
+                        }
+                        a{
+                            color: black;
+                            text-transform: uppercase;
+                            font-size: 20px;
+                        }
+                    }
+                    .man2{
+                        background-color: #e6e9f0;
+                        .stay{
+                            color: #589195;
+                        }
+                        a{
+                            color: black;
+                            text-transform: uppercase;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #six_section{
+        .container{
+            .row{
+                .col-lg-3{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    #comments{
+        background-color: #f6f8fa;
+        .container{
+            padding: 30px;
+            .row{
+                .comments{
+                    background-color: white;
+                    border: 2px solid white;
+                }
+                .titles{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .icons{
+                        i{
+                            color: #FFB400;
+                        }
+                    }
+                }
+                .about{
+                    margin: 20px 0;
+                    line-height: 1.5;
+                    font-weight: 400;
+                    font-family: italic, sans-serif;
+                }
+                .specialist{
+                    display: flex;
+                    justify-content: start;
+                    gap: 20px;
+                    align-items: center;
+                    img{
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+    
+    #model_tShirt{
+        margin: 30px 0;
+        .container{
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 70px;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
+footer{
+    background-color: #E8EAEF;
+    .container{
+        padding: 40px;
+        .row{
+            .col-lg-3{
+                .inputs{
+                    position: relative;
+                    input{
+                        padding: 10px 30px;
+                        border: none;
+                    }
+                    img{
+                        position: absolute;
+                        right: 75px;
+                        top: 15px;
+                        width: 15px;
+                    }
+                }
+                .icons{
+                    margin: 15px 0;
+                    display: flex;
+                    gap: 20px;
+                }
+            }
+            .col-lg-6:nth-child(2){
+                text-align: right;
+            }
+            .categories{
+                .category{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:990px) {
+    nav{
+        .container{
+            flex-direction: column;
+            .menu{
+                display: block;
+                margin: 20px 0;
+                width: 60px;
+            }
+            .navbar-nav{
+                display: none;
+            }
+        }
+    }
+}
